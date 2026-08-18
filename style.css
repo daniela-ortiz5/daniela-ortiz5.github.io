@@ -1,13 +1,13 @@
 :root{
-  --ink:#1C1A16;
-  --ink-soft:#4B4740;
-  --paper:#F3F0E9;
-  --paper-2:#E9E4D8;
+  --ink:#1B1D1E;
+  --ink-soft:#484C4E;
+  --paper:#EFF0EE;
+  --paper-2:#E1E4E2;
   --rust:#A8442C;
   --olive:#57654A;
   --gold:#93752F;
-  --line:#D6D0C0;
-  --line-soft:#E2DCCE;
+  --line:#CBCFCB;
+  --line-soft:#DBDEDA;
   --max:1120px;
   --serif:'Fraunces', serif;
   --sans:'Libre Franklin', sans-serif;
