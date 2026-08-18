@@ -1,13 +1,13 @@
 :root{
-  --ink:#1B1712;
-  --ink-soft:#4A4030;
-  --paper:#F2E8D8;
-  --paper-2:#E8D9BE;
-  --rust:#AE4227;
-  --olive:#5B6B44;
-  --gold:#A2792E;
-  --line:#C9B287;
-  --line-soft:#DFCFA9;
+  --ink:#1C1A16;
+  --ink-soft:#4B4740;
+  --paper:#F3F0E9;
+  --paper-2:#E9E4D8;
+  --rust:#A8442C;
+  --olive:#57654A;
+  --gold:#93752F;
+  --line:#D6D0C0;
+  --line-soft:#E2DCCE;
   --max:1120px;
   --serif:'Fraunces', serif;
   --sans:'Libre Franklin', sans-serif;
@@ -151,11 +151,9 @@ a:focus-visible, button:focus-visible{
 /* ---------- CLIPPINGS ---------- */
 .clippings{display:grid; grid-template-columns:1fr 1fr; gap:1.6rem;}
 .clip-card{
-  background:var(--paper-2); border-left:4px solid var(--rust);
+  background:var(--paper-2);
   padding:1.5rem 1.6rem;
 }
-.clip-card.tag-government{border-left-color:var(--olive);}
-.clip-card.tag-culture{border-left-color:var(--gold);}
 .clip-head{
   display:flex; justify-content:space-between; align-items:baseline;
   flex-wrap:wrap; gap:.4rem; margin-bottom:.8rem;
@@ -282,7 +280,7 @@ a:focus-visible, button:focus-visible{
 .gallery-figure figcaption em{color:var(--ink); font-style:normal; font-weight:600;}
 
 .viz-list{display:grid; gap:1.8rem; max-width:800px; margin:1.6rem auto 0;}
-.viz-card{background:var(--paper-2); border-left:4px solid var(--gold); padding:1.6rem 1.7rem;}
+.viz-card{background:var(--paper-2); padding:1.6rem 1.7rem;}
 .viz-tag{
   font-family:var(--mono); font-size:.68rem; letter-spacing:.08em;
   text-transform:uppercase; font-weight:600; color:var(--gold);
