@@ -1,11 +1,11 @@
 :root{
   --ink:#1B1D1E;
   --ink-soft:#484C4E;
-  --paper:#f5f7fa;
+  --paper:#eef0f3;
   --paper-2:#E1E4E2;
-  --rust:#5e7a6d;
-  --olive:#686282;
-  --gold:#556bad;
+  --rust:#b76e85;
+  --olive:#82627a;
+  --gold:#76809c;
   --line:#CBCFCB;
   --line-soft:#DBDEDA;
   --max:1120px;
@@ -160,9 +160,9 @@ a:focus-visible, button:focus-visible{
 }
 .clip-tag{
   font-family:var(--mono); font-size:.68rem; letter-spacing:.08em;
-  text-transform:uppercase; font-weight:600; color:var(--rust);
+  text-transform:uppercase; font-weight:600; color:var(--gold);
 }
-.tag-government .clip-tag{color:var(--olive);}
+.tag-government .clip-tag{color:var(--gold);}
 .tag-culture .clip-tag{color:var(--gold);}
 .clip-meta{
   font-family:var(--mono); font-size:.68rem; letter-spacing:.04em;
@@ -172,11 +172,11 @@ a:focus-visible, button:focus-visible{
   font-family:var(--serif); font-weight:600; font-size:1.32rem;
   line-height:1.22; margin:0 0 .7rem;
 }
-.clip-card h3 a:hover{color:var(--rust);}
+.clip-card h3 a:hover{color:var(--gold);}
 .clip-card p{font-size:.96rem; color:var(--ink-soft); margin:0 0 1rem;}
 .read-link{
   font-family:var(--mono); font-size:.72rem; letter-spacing:.06em;
-  text-transform:uppercase; color:var(--rust); font-weight:600;
+  text-transform:uppercase; color:var(--gold); font-weight:600;
   display:inline-block; transition:transform .15s;
 }
 .read-link:hover{transform:translateX(3px);}
