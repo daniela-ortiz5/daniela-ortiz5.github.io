@@ -277,8 +277,10 @@ a:focus-visible, button:focus-visible{
   object-fit:contain; display:block;
 }
 .gallery-figure figcaption{
-  font-family:var(--mono); font-size:.72rem; line-height:1.55;
-  color:var(--ink-soft); border-left:3px solid var(--rust);
+  font-family:var(--mono);
+  font-size:.72rem;
+  line-height:1.55;
+  color:var(--ink-soft);
   padding:.7rem .9rem;
 }
 .gallery-figure figcaption em{color:var(--ink); font-style:normal; font-weight:600;}
