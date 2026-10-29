@@ -289,6 +289,16 @@ a:focus-visible, button:focus-visible{
 .viz-card p{font-size:.98rem; color:var(--ink-soft); margin:0 0 1.2rem; max-width:65ch;}
 .viz-embed{border:1px solid var(--line); background:var(--paper); overflow:hidden;}
 
+.project-hero h1{
+  margin:.35rem 0 .5rem;
+}
+.project-body{
+  padding-top:1rem;
+}
+.project-body .lead-graf{
+  margin-top:0;
+}
+
 /* ---------- FOOTER ---------- */
 .site-footer{
   max-width:var(--max); margin:0 auto;
