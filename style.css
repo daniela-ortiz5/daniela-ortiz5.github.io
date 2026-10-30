@@ -312,6 +312,20 @@ a:focus-visible, button:focus-visible{
 }
 .gallery-figure figcaption em{color:var(--ink); font-style:normal; font-weight:600;}
 
+.caption-link{
+  display:block;
+  margin-top:.5rem;
+  font-size:.72rem;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  font-weight:600;
+  color:var(--gold);
+  transition:color .15s;
+}
+.caption-link:hover{
+  color:var(--rust);
+}
+
 .viz-list{display:grid; gap:1.8rem; max-width:800px; margin:1.6rem auto 0;}
 .viz-card{background:var(--paper-2); padding:1.6rem 1.7rem;}
 .viz-tag{
