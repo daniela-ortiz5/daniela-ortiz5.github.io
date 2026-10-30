@@ -5,7 +5,7 @@
   --paper-2:#E1E4E2;
   --rust:#be6984;
   --olive:#82627a;
-  --gold:#76809c;
+  --gold:#6e7b9e;
   --line:#CBCFCB;
   --line-soft:#DBDEDA;
   --max:1120px;
@@ -114,18 +114,28 @@ a:focus-visible, button:focus-visible{
   font-family:var(--mono); font-size:.72rem; letter-spacing:.08em;
   text-transform:uppercase; color:var(--ink-soft);
 }
-.cover-photo{grid-column:2; margin:0;}
-.cover-photo img{
-  width:100%; aspect-ratio:4/5; object-fit:cover;
-  border:1px solid var(--ink);
+.cover-photo {
+  grid-column: 2;
+  margin: 0;
+  position: relative;
+  isolation: isolate;
 }
-.cover-photo figcaption{
-  font-family:var(--mono); font-size:.68rem; letter-spacing:.03em;
-  color:var(--ink-soft); background:var(--paper-2);
-  border-left:3px solid var(--rust);
-  padding:.6rem .8rem; margin-top:.1px;
+
+.cover-photo::before {
+  content: "";
+  position: absolute;
+  inset: 12px -12px -12px 12px;
+  border: 2px solid var(--gold);
+  z-index: -1;
+  pointer-events: none;
 }
-.cover-photo figcaption span{color:var(--ink); font-weight:600;}
+
+.cover-photo img {
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  border: 1px solid var(--ink);
+}
 
 /* ---------- FOLIO / SECTIONS ---------- */
 .folio-section{max-width:var(--max); margin:0 auto; padding:0 1.75rem 4.5rem;}
