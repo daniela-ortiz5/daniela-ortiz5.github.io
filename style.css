@@ -140,7 +140,10 @@ a:focus-visible, button:focus-visible{
 .folio-name{color:var(--ink);}
 .folio-page{color:var(--ink-soft);}
 
-.lead-graf{font-size:1.15rem; max-width:66ch; color:var(--ink-soft);}
+.lead-graf{
+  font-size:1.15rem;
+  color:var(--ink-soft);
+}
 .drop-cap{
   float:left; font-family:var(--serif); font-weight:700;
   font-size:4.6rem; line-height:.78; color:var(--rust);
