@@ -11,7 +11,7 @@
   --max:1120px;
   --serif:'Fraunces', serif;
   --sans:'Libre Franklin', sans-serif;
-  --mono:'IBM Plex Mono', monospace;
+  --mono: 'Libre Franklin', sans-serif;
 }
 
 *{box-sizing:border-box;}
