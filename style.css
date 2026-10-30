@@ -158,6 +158,14 @@ a:focus-visible, button:focus-visible{
 .folio-name{color:var(--ink);}
 .folio-page{color:var(--ink-soft);}
 
+.folio::after{
+  content:"✦✧✦";
+  margin-left:auto;
+  color:var(--rust);
+  font-size:.9rem;
+  line-height:1;
+}
+
 .lead-graf{font-size:1.15rem; max-width:85ch; color:var(--ink-soft);}
 .drop-cap{
   float:left; font-family:var(--serif); font-weight:700;
