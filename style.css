@@ -183,9 +183,10 @@ a:focus-visible, button:focus-visible{
   font-family:var(--mono); font-size:.68rem; letter-spacing:.04em;
   text-transform:uppercase; color:var(--ink-soft);
 }
-.clip-card h3{
-  font-family:var(--serif); font-weight:600; font-size:1.32rem;
-  line-height:1.22; margin:0 0 .7rem;
+.clip-card{
+  background:transparent;
+  border:1.5px dashed var(--rust);
+  padding:1.5rem 1.6rem;
 }
 .clip-card h3 a:hover{color:var(--gold);}
 .clip-card p{font-size:.96rem; color:var(--ink-soft); margin:0 0 1rem;}
@@ -207,9 +208,10 @@ a:focus-visible, button:focus-visible{
   text-transform:uppercase; color:var(--gold); font-weight:600;
   display:inline-block; margin-bottom:.9rem;
 }
-.design-card h3{
-  font-family:var(--serif); font-weight:600; font-size:1.5rem;
-  margin:0 0 .8rem; line-height:1.2;
+.design-card{
+  border:1.5px dashed var(--rust);
+  padding:1.8rem;
+  background:transparent;
 }
 .design-card h3 a:hover{color:var(--rust);}
 .design-card p{color:var(--ink-soft); margin:0 0 1.1rem;}
