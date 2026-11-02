@@ -198,6 +198,21 @@ a:focus-visible, button:focus-visible{
 .read-link:hover{transform:translateX(3px);}
 
 /* ---------- DESIGN WORK ---------- */
+.card-thumb{
+  display:block;
+  margin:-1.8rem -1.8rem 1.4rem;
+  overflow:hidden;
+  border-bottom:1.5px dashed var(--rust);
+}
+.card-thumb img{
+  width:100%;
+  aspect-ratio:4/3;
+  object-fit:cover;
+  transition:transform .3s;
+}
+.card-thumb:hover img{
+  transform:scale(1.03);
+}
 .design-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:1.6rem;}
 .design-card{
   border:1px solid var(--ink); padding:1.8rem;
