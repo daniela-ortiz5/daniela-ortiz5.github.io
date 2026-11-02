@@ -231,6 +231,13 @@ a:focus-visible, button:focus-visible{
 .design-card h3 a:hover{color:var(--rust);}
 .design-card p{color:var(--ink-soft); margin:0 0 1.1rem;}
 
+}
+.clip-card h3,
+.design-card h3{
+  margin:0 0 .6rem;
+  line-height:1.25;
+}
+
 /* ---------- CONTACT ---------- */
 .contact-section h2{
   font-family:var(--serif); font-weight:600;
@@ -358,6 +365,7 @@ a:focus-visible, button:focus-visible{
 }
 .project-body .lead-graf{
   margin-top:0;
+}
 
 /* ---------- FOOTER ---------- */
 .site-footer{
