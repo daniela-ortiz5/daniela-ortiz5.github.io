@@ -135,7 +135,6 @@ a:focus-visible, button:focus-visible{
   border: 1px solid var(--ink);
 }
 
-}
 .photo-frame::before,
 .photo-frame::after{
   content:"";
