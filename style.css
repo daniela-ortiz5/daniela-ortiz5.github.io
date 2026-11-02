@@ -220,7 +220,7 @@ a:focus-visible, button:focus-visible{
 }
 .clip-card{
   background:transparent;
-  border:1.5px dashed var(--rust);
+  border:1.8px dashed var(--rust);
   padding:1.5rem 1.6rem;
 }
 .clip-card h3 a:hover{color:var(--gold);}
