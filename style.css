@@ -134,6 +134,32 @@ a:focus-visible, button:focus-visible{
   border: 1px solid var(--ink);
 }
 
+}
+.photo-frame::before,
+.photo-frame::after{
+  content:"";
+  position:absolute;
+  width:80px;
+  height:80px;
+  background:var(--stars);
+  -webkit-mask:var(--star) center/contain no-repeat;
+  mask:var(--star) center/contain no-repeat;
+  pointer-events:none;
+  z-index:1;
+}
+.photo-frame::before{
+  --star:url("assets/star-1.png");
+  top:-38px;
+  right:-36px;
+  transform:rotate(12deg);
+}
+.photo-frame::after{
+  --star:url("assets/star-2.png");
+  bottom:-30px;
+  left:-34px;
+  transform:rotate(-8deg);
+}
+
 /* ---------- FOLIO / SECTIONS ---------- */
 .folio-section{max-width:var(--max); margin:0 auto; padding:0 1.75rem 4.5rem;}
 .folio{
