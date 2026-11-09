@@ -292,7 +292,7 @@ a:focus-visible, button:focus-visible{
 .clip-card:nth-child(4n+3){transform:rotate(.4deg);}
 .clip-card:nth-child(4n){transform:rotate(-.2deg) translateY(-2px);}
 .clip-card:hover{transform:rotate(0) translateY(-2px);}
-.clip-card h3 a:hover{color:var(--blue);}
+.clip-card h3 a:hover{color:var(--pink-ink);}
 .clip-card p{font-size:.96rem; color:var(--ink-soft); margin:0 0 1rem;}
 .read-link{
   font-family:var(--mono); font-size:.72rem; letter-spacing:.06em;
