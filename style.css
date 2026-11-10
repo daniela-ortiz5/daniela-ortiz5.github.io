@@ -146,16 +146,20 @@ a:focus-visible, button:focus-visible{
   margin:0 0 1.9rem;
 }
 .cover-actions{display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:2.2rem;}
+/* lowercase display type + the same pink misregistration as the headlines;
+   hover presses the button down into its offset */
 .btn{
-  font-family:var(--mono); font-size:.78rem; letter-spacing:.06em;
-  text-transform:uppercase; padding:.85rem 1.5rem;
-  border:1.5px solid var(--ink); transition:background .15s, color .15s;
+  font-family:var(--display); font-size:1.05rem; font-weight:500;
+  letter-spacing:-.01em; text-transform:lowercase;
+  padding:.6rem 1.3rem;
+  border:1.5px solid var(--blue);
+  box-shadow:4px 4px 0 var(--pink);
+  transition:transform .12s, box-shadow .12s;
   display:inline-block;
 }
-.btn-primary{background:var(--ink); color:var(--paper);}
-.btn-primary:hover{background:var(--pink); border-color:var(--pink); color:var(--ink);}
-.btn-ghost{background:transparent; color:var(--ink);}
-.btn-ghost:hover{background:var(--ink); color:var(--paper);}
+.btn:hover{transform:translate(3px, 3px); box-shadow:1px 1px 0 var(--pink);}
+.btn-primary{background:var(--ink); border-color:var(--ink); color:var(--paper);}
+.btn-ghost{background:var(--card); color:var(--blue);}
 .byline{
   font-family:var(--mono); font-size:.72rem; letter-spacing:.08em;
   text-transform:uppercase; color:var(--ink-soft);
@@ -269,8 +273,8 @@ a:focus-visible, button:focus-visible{
 .tag-government .clip-tag{color:var(--blue);}
 .tag-culture .clip-tag{color:var(--blue);}
 .clip-meta{
-  font-family:var(--mono); font-size:.68rem; letter-spacing:.04em;
-  text-transform:uppercase; color:var(--ink-soft);
+  font-family:var(--mono); font-size:.82rem; letter-spacing:.01em;
+  text-transform:lowercase; color:var(--ink-soft);
 }
 .clip-card h3{
   font-family:var(--display); font-weight:500; font-size:1.32rem;
@@ -293,14 +297,9 @@ a:focus-visible, button:focus-visible{
 .clip-card:nth-child(4n+3){transform:rotate(.4deg);}
 .clip-card:nth-child(4n){transform:rotate(-.2deg) translateY(-2px);}
 .clip-card:hover{transform:rotate(0) translateY(-2px);}
-.clip-card h3 a:hover{color:var(--pink-ink);}
+.clip-card h3 a:hover{color:var(--blue);}
 .clip-card p{font-size:.96rem; color:var(--ink-soft); margin:0 0 1rem;}
-.read-link{
-  font-family:var(--mono); font-size:.72rem; letter-spacing:.06em;
-  text-transform:uppercase; color:var(--blue); font-weight:600;
-  display:inline-block; transition:transform .15s;
-}
-.read-link:hover{transform:translateX(3px);}
+.clip-card p:last-child, .design-card p:last-child{margin-bottom:0;}
 
 /* ---------- DESIGN WORK ---------- */
 .card-thumb{
@@ -333,7 +332,7 @@ a:focus-visible, button:focus-visible{
   padding:1.8rem;
   background:var(--card);
 }
-.design-card h3 a:hover{color:var(--pink-ink);}
+.design-card h3 a:hover{color:var(--blue);}
 .design-card p{color:var(--ink-soft); margin:0 0 1.1rem;}
 
 .clip-card h3,
